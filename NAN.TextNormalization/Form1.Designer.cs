@@ -42,6 +42,7 @@
             // 
             this.SourceTextBox.Location = new System.Drawing.Point(18, 47);
             this.SourceTextBox.Name = "SourceTextBox";
+            this.SourceTextBox.ReadOnly = true;
             this.SourceTextBox.Size = new System.Drawing.Size(410, 120);
             this.SourceTextBox.TabIndex = 0;
             this.SourceTextBox.Text = "";
@@ -50,6 +51,7 @@
             // 
             this.TransfomationTextBox.Location = new System.Drawing.Point(18, 219);
             this.TransfomationTextBox.Name = "TransfomationTextBox";
+            this.TransfomationTextBox.ReadOnly = true;
             this.TransfomationTextBox.Size = new System.Drawing.Size(410, 120);
             this.TransfomationTextBox.TabIndex = 1;
             this.TransfomationTextBox.Text = "";

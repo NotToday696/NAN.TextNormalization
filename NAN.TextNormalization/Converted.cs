@@ -5,7 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-
+/*
+ * Класс отвечает за чтение информации из файла и вывод её.
+ */
 namespace NAN.TextNormalization
 {
     public class Converted

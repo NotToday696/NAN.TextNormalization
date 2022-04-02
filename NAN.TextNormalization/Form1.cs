@@ -37,7 +37,6 @@ namespace NAN.TextNormalization
 
         private void SaveButton_Click(object sender, EventArgs e)
         {
-
             if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 File.WriteAllText(saveFileDialog1.FileName, TransfomationTextBox.Text);
