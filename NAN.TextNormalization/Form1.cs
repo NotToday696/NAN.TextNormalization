@@ -26,7 +26,8 @@ namespace NAN.TextNormalization
             {
                 Converted convert = new Converted();
                 SourceTextBox.Text = convert.Source(openFileDialog1.FileName);
-                TransfomationTextBox.Text = convert.Convert(openFileDialog1.FileName);
+                Transformation transformation = new Transformation();
+                TransfomationTextBox.Text =transformation.Transform(convert.Convert(openFileDialog1.FileName));
             }
             else
             {
