@@ -24,7 +24,7 @@ namespace NAN.TextNormalization
         {
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                Converted convert = new Converted(); //Необходимо создать класс, который будет преобразоватать строку в нужным параметрам.
+                Converted convert = new Converted(); //Необходимо создать класс, который будет преобразовать строку в нужным параметрам.
                 SourceTextBox.Text = convert.Source(openFileDialog1.FileName);
                 TransfomationTextBox.Text = convert.Convert(openFileDialog1.FileName);
             }
